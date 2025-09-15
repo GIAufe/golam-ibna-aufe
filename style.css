@@ -267,4 +267,35 @@ span{
     }
 }
  
+.about{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10rem;
+background: #161616;
 
+}
+
+.about-img{
+    width: 32vm;
+    border-radius: 50%;
+    box-shadow: #161616;
+    transition: 0.3s ease-in-out;
+}
+.about-img img:hover{
+    box-shadow: 0 0 25px var(#161616),
+                0 0 50px var(#161616),
+                0 0 100px var(#161616);
+}
+.about-content h2{
+    font-size: 7rem;
+    text-align: left;
+    }
+.about-content p{
+    font-size: 1.8rem;
+
+}
+.about-content .btn{
+    margin: 3rem 0;
+
+}
