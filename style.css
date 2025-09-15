@@ -270,7 +270,7 @@ background: #161616;
 
 .about-img{
     width: 32vm;
-    border-radius: 50%;
+    border-radius: 75%;
     box-shadow: #161616;
     transition: 0.3s ease-in-out;
 }
@@ -291,5 +291,6 @@ background: #161616;
     margin: 3rem 0;
 
 }
+
 
 
